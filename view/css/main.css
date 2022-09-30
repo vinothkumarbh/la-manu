@@ -1,0 +1,25 @@
+body {
+    background: url(../images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.nav-item, .navbar-brand {
+    font-size: 25px;
+}
+
+.nav-item a{
+    color: white !important;
+}
+
+img {
+    max-width: 300px;
+    transition: all 0.2s;
+}
+
+
+img:hover {
+    max-width: 320px;
+}
+
